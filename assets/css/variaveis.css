@@ -1,0 +1,72 @@
+.theme-one {
+    --main-background:hsl(222, 26%, 31%);
+    --toggle-background: hsl(223, 31%, 20%);
+    --screen-background: hsl(224, 36%, 15%);
+
+    /* keys */
+    --key-background-clear: hsl(225, 21%, 49%);
+    --key-shadow-clear: hsl(224, 28%, 35%);
+    --key-equal: #fff;
+    --key-clear: #fff;
+
+    --key-background-equal: hsl(6, 63%, 50%);
+    --toggle: hsl(6, 63%, 50%);
+
+    --key-shadow-equal: hsl(6, 70%, 34%);
+
+    --key-background-all: hsl(30, 25%, 89%);
+    --key-shadow-all: hsl(28, 16%, 65%);
+
+    /* text */
+    --dark-grayish-blue: hsl(221, 14%, 31%);
+    --text-default: #000;
+    --text-display: #fff;
+}
+
+.theme-two {
+    --main-background:hsl(0, 0%, 90%);
+    --toggle-background: hsl(0, 5%, 81%);
+    --screen-background: hsl(0, 0%, 93%);
+
+    /* keys */
+    --key-background-clear: hsl(185, 42%, 37%);
+    --key-shadow-clear: hsl(224, 28%, 35%);
+
+    --key-background-equal: hsl(25, 98%, 40%);
+    --toggle: hsl(25, 98%, 40%);
+    --key-shadow-equal: hsl(25, 99%, 27%);
+
+    --key-background-all: hsl(45, 7%, 89%);
+    --key-shadow-all: hsl(35, 11%, 61%);
+    --key-equal: #fff;
+    --key-clear: #fff;
+
+    /* text */
+    --dark-grayish-yellow: hsl(60, 10%, 19%);
+    --text-default: #000;
+    --text-display: #000;
+}
+
+.theme-three {
+    --main-background:hsl(268, 75%, 9%);
+    --toggle-background: hsl(0, 5%, 81%);
+    --screen-background: hsl(268, 71%, 12%);
+
+    /* keys */
+    --key-background-clear: hsl(281, 89%, 26%);
+    --key-shadow-clear: hsl(285, 91%, 52%);
+
+    --key-background-equal: hsl(176, 100%, 44%);
+    --toggle: hsl(176, 100%, 44%);
+    --key-shadow-equal: hsl(177, 92%, 70%);
+    --key-equal: #000;
+    --key-clear: #fff;
+
+    --key-background-all: hsl(268, 47%, 21%);
+    --key-shadow-all: hsl(290, 70%, 36%);
+
+    /* text */
+    --dark-grayish-yellow: hsl(52, 100%, 62%);
+    --text-default: hsl(52, 100%, 62%);
+    --text-display: hsl(52, 100%, 62%);
+}

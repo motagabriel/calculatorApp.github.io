@@ -1,0 +1,155 @@
+@import "./variaveis.css";
+
+.content-calc{
+    background-color: var(--main-background);
+}
+
+.display {
+    background-color: var(--screen-background);
+    border-radius: 10px;
+    max-width: 100%;
+    margin-bottom: 15px;
+    border: none;
+    padding: 20px 0px;
+    font-size: 2.75rem;
+    text-align: end;
+    height: 80px;
+    color: var(--text-display);
+    margin-right: 20px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+
+.grid-calc {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows:  60px 60px 60px 60px 60px;
+    grid-template-areas:  
+     "seven eight nine del" 
+     "four five six addition" 
+     "one two three subtraction" 
+     "point zero division multiplication" 
+     "reset reset equal equal" 
+    ;
+    gap: 20px;
+    padding: 20px;
+    background-color: var(--toggle-background);
+    border-radius: 10px;
+}
+
+
+
+.btn {
+    background: var(--key-background-all);
+    color: var(--text-default);
+    border-radius: 10px;
+    text-align: center;
+    font-size: 1.475rem;
+    padding: 15px;
+    box-shadow: 0px 2px var(--key-shadow-all);
+}
+
+@media (max-width: 680px) {
+
+    .grid-calc{
+        gap: 10px;
+        height: 60vh;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    }
+
+    .btn {
+        font-size: 1.5rem;
+        padding: 0px;
+    }
+}
+
+
+
+.one {
+    grid-area: one;
+}
+
+.two {
+    grid-area: two;
+}
+
+.three {
+    grid-area: three;
+}
+
+.four {
+    grid-area: four;
+}
+
+.five {
+    grid-area: five;
+}
+
+.six {
+    grid-area: six;
+}
+
+.seven {
+    grid-area: seven;
+}
+
+.eight {
+    grid-area: eight;
+}
+
+.nine {
+    grid-area: nine;
+}
+
+.zero {
+    grid-area: zero;
+}
+
+.point {
+    grid-area: point;
+}
+
+.addition {
+    grid-area: addition;
+}
+
+.del {
+    grid-area: del;
+}
+
+.del, .reset {
+    background-color: var(--key-background-clear);
+    color: var(--key-clear);
+    box-shadow: 0px 2px var(--key-shadow-clear);
+    text-transform: uppercase;
+}
+
+.subtraction {
+    grid-area: subtraction;
+}
+
+.multiplication {
+    grid-area: multiplication;
+}
+
+.division {
+    grid-area: division;
+}
+
+.equal {
+    color: var(--key-equal);
+    grid-area: equal;
+    background-color: var(--key-background-equal);
+    box-shadow: 0px 2px var(--key-shadow-equal);
+}
+
+.reset {
+    grid-area: reset;
+}
+
+
+
+
+

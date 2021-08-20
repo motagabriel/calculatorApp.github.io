@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="stylesheet" href="./assets/css/reset.css">
+  <link rel="stylesheet" href="./assets/css/normalize.css">
+  <link rel="stylesheet" href="./assets/css/variaveis.css">
+  <link rel="stylesheet" href="./assets/css/styles.css">
+  <link rel="stylesheet" href="./assets/css/calculator.css">
+  
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link href="https://fonts.googleapis.com/css2?family=Spartan:wght@700&display=swap" rel="stylesheet">
+  <title>Frontend Mentor | Calculator app</title>
+</head>
+<body class="theme-one">
+  <main class="container">
+    <header class="header">
+      <h1>calc</h1>
+      <div class="content-switch">
+        <span>theme</span>
+        <div class="switch">
+          <label for="theme-one">1</label>
+          <input type="radio" name="theme" id="theme-one" value="1"/>
+          <label for="theme-two">2</label>
+          <input type="radio" name="theme" id="theme-two" value="2" />
+          <label for="theme-three">3</label>
+          <input type="radio" name="theme" id="theme-three" value="3" />
+          <div class="toggle"></div>
+        </div>
+      </div>
+    </header>
+    
+    <section class="content-calc">
+
+      
+      <input class="display"></input>
+      
+      <div class="grid-calc">
+        <button class="btn btn-number one">1</button>
+        <button class="btn btn-number two">2</button>
+        <button class="btn btn-number three">3</button>
+        <button class="btn btn-number four">4</button>
+        <button class="btn btn-number five">5</button>
+        <button class="btn btn-number six">6</button>
+        <button class="btn btn-number seven">7</button>
+        <button class="btn btn-number eight">8</button>
+        <button class="btn btn-number nine">9</button>
+        <button class="btn btn-number zero">0</button>
+        <button class="btn btn-number point">.</button>
+        
+
+        <button class="btn btn-clear del">Del</button>
+        <button class="btn btn-number addition">+</button>
+        <button class="btn btn-number subtraction">-</button>
+        <button class="btn btn-number multiplication" value="*">x</button>
+        <button class="btn btn-number division">/</button>
+
+        <button class="btn btn-equal btn-operation equal">=</button>
+        <button class="btn btn-reset reset">Reset</button>
+      </div>
+    </section>
+  </main>
+
+  <script src="./js/themeOptions.js"></script>
+  <script src="./js/Calculadora.js"></script>
+</body>
+</html>
