@@ -1,6 +1,6 @@
 # CalculatorApp
 
-Link: https://calculatorApp.github.io
+Link: https://motagabriel.github.io/calculatorapp.github.io/
 
 ## Este desafio consistia em fazer uma calculadora com três temas diferentes, sem alternância de página;
 
