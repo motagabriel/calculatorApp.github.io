@@ -7,7 +7,7 @@ Link: https://calculatorApp.github.io
 ### Funcionamento
 
 <h3 align="center">
-  <img alt="Calculadora tema 1" title="#calculatorApp" src="./assets/images/calculadora-gif.png" />
+  <img alt="Calculadora tema 1" title="#calculatorApp" src="./assets/images/calculator-app.gif" />
 </h3>
 
 ### Tema 1
